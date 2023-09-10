@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;300;400&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background: linear-gradient(to right, #333333, #222222); /* Darker background gradient */
+    font-family: 'Poppins', sans-serif;
+    color: #fff; /* White text */
+}
+
+h1 {
+    text-align: center;
+    color: #00b4bf; /* Teal header text */
+    font-size: 2.5rem; /* Larger font size */
+    margin-top: 2rem;
+}
+
+.jumbotron {
+    background: rgba(0, 0, 0, 0.8); /* Darker background with transparency */
+    transform-style: preserve-3d;
+    transition: .3s;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.6);
+    max-width: 60rem;
+    width: 100%;
+    margin: 2rem auto;
+    padding: 2rem; /* More padding */
+    border-radius: .5rem;
+    border: 1px solid #00b4bf; /* Teal border */
+}
+
+.well {
+    background: #222; /* Dark background color */
+    color: #fff; /* White text color */
+    max-width: 60rem;
+    width: 100%;
+    margin: 1rem auto;
+    padding: 2rem; /* More padding */
+    border-radius: .5rem;
+    border: none;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.4); /* Darker shadow */
+}
+
+#savebtn,
+#clrbtn {
+    font-size: 1.8rem; /* Larger button text */
+    padding: 1rem 2rem; /* More padding */
+    border-radius: .5rem;
+    cursor: pointer;
+}
+
+#savebtn {
+    background: #0077b6; /* Dark blue button */
+}
+
+#savebtn:hover {
+    background: #023e8a; /* Darker blue on hover */
+}
+
+#clrbtn {
+    background: #e63946; /* Red button */
+}
+
+#clrbtn:hover {
+    background: #ff4136; /* Darker red on hover */
+}
+
+/* issue list */
+.labid {
+    display: flex;
+    gap: 1rem;
+    font-family: 'Roboto Mono', monospace;
+    border-bottom: 1px solid #333;
+}
+
+.labid span {
+    background: #ff5e00; /* Orange background */
+    color: #fff;
+    padding: 0.2rem 0.5rem; /* Adjusted padding */
+}
+
+.labid h6 {
+    margin-top: 5px;
+    color: #00b4bf; /* Teal text color */
+}
+
+.well p.glyphicon-user {
+    margin-left: 1rem;
+    padding: 1rem; /* Adjusted padding */
+}
+
+.well #closebtn,
+.well #delbtn {
+    font-size: 1.6rem; /* Slightly larger button text */
+    padding: 0.5rem 1rem; /* Adjusted padding */
+    border-radius: .3rem; /* Slightly rounded corners */
+}
+
+.well #closebtn {
+    background: #04a126; /* Green button */
+}
+
+.well #closebtn:hover {
+    background: #037f1c; /* Darker green on hover */
+}
+
+.well #delbtn {
+    background: #b30404; /* Dark red button */
+}
+
+.well #delbtn:hover {
+    background: #a30000; /* Darker red on hover */
+}
+
+/* Back button */
+.backbtn {
+    position: absolute;
+    font-size: 3rem;
+    float: left;
+    cursor: pointer;
+    margin-top: 2rem;
+    margin-left: 2rem; /* Adjusted margin */
+    color: #00b4bf; /* Teal text color */
+}
+
+.backbtn a {
+    text-decoration: none;
+    color: inherit;
+}
